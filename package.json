@@ -1,6 +1,6 @@
 {
   "name": "react-native-baidu-voice-recognition",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "baidu voice recognition sdk for react native",
   "main": "index.js",
   "directories": {
@@ -21,22 +21,22 @@
     "react-native"
   ],
   "rnpm": {
-      "ios": {
-        "sharedLibraries": [
-            "CoreLocation.framework",
-            "CoreTelephony.framework",
-            "CFNetwork.framework",
-            "GLKit.framework",
-            "SystemConfiguration.framework",
-            "AudioToolbox.framework",
-            "AVFoundation.framework",
-            "libstdc++.6.0.9.tbd",
-            "libiconv.2.4.0.tbd",
-            "libc++.tbd",
-            "libz.1.2.5.tbd"
-        ]
-      }
-    },
+    "ios": {
+      "sharedLibraries": [
+        "CoreLocation.framework",
+        "CoreTelephony.framework",
+        "CFNetwork.framework",
+        "GLKit.framework",
+        "SystemConfiguration.framework",
+        "AudioToolbox.framework",
+        "AVFoundation.framework",
+        "libstdc++.6.0.9.tbd",
+        "libiconv.2.4.0.tbd",
+        "libc++.tbd",
+        "libz.1.2.5.tbd"
+      ]
+    }
+  },
   "author": "leonlu <ludafa@outlook.com>",
   "license": "ISC"
 }
