@@ -1,0 +1,25 @@
+{
+  "name": "react-native-baidu-voice-recognition",
+  "version": "0.1.0",
+  "description": "baidu voice recognition sdk for react native",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.baidu.com/lupengyu/react-native-bds.git"
+  },
+  "keywords": [
+    "baidu",
+    "yuyin",
+    "voice",
+    "recognition",
+    "react-native"
+  ],
+  "author": "leonlu <ludafa@outlook.com>",
+  "license": "ISC"
+}
