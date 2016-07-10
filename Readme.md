@@ -20,6 +20,9 @@ Android coming soon
 
 
 > 在线识别需要网络连接，所以需要在 Info.plist 中打开 SSL 请求限制
+> 以 source code 方式打开 Info.plist 文件后加入下边的代码：
+> 
+> ![image](https://cloud.githubusercontent.com/assets/811195/16713960/7c4912fc-46e8-11e6-950f-d043cf92c25c.png)
 
 ## Usage
 
