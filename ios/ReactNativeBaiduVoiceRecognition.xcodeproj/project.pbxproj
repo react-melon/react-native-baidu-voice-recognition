@@ -323,7 +323,10 @@
 		35366A221D2FA04200DB398A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Example/node_modules/react-native/React/**";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../Example/node_modules/react-native/React/**",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaiduVoiceSDK/BDSClientLib",
@@ -343,7 +346,10 @@
 		35366A231D2FA04200DB398A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Example/node_modules/react-native/React/**";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../Example/node_modules/react-native/React/**",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaiduVoiceSDK/BDSClientLib",
